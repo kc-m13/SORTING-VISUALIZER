@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" href="sorting.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+   <main>
+    <div class="baap">
+    <div class="control-container d-flex justify-content-between  ">
+             <div class="sorting-speed col-md-4 ">
+                <label for="sorting-speed">Select the Sorting Speed</label>
+                <br>
+                <select class="sorting-speed myselect" id="sorting-speed">
+                    <option value="select" selected>Select</option>
+                    <option value="0.25">0.25x</option>
+                    <option value="0.5">0.5x</option>
+                    <option value="0.75">0.75x</option>
+                    <option value="1.00">1.00x</option>
+                    <option value="1.25">1.25x</option>
+                    <option value="1.50">1.50x</option>
+                    <option value="1.75">1.75x</option>
+                    <option value="2.00">2.00x</option>
+                  </select>
+             </div>
+            
+             <div class="element-number col-md-4" >
+                <label for="element-number">Select the number of elements</label>
+                <br>
+              <select class="element-number myselect" id="element-number">
+                <option value="select"selected>Select</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+              </select>
+             </div>
+              
+
+             <div class="sorting-tech col-md-4">
+                <label for="sorting-tech">Select the Sorting Technique</label>
+                <br>
+                <select class="sorting-tech myselect" id="sorting-tech">
+                    <option value="Select"selected>Select</option>
+                    <option value="Bubble">Bubble</option>
+                    <option value="Selection">Selection</option>
+                    <option value="Insertion">Insertion</option>
+                    <option value="Merge">Merge</option>
+                    <option value="Quick">Quick</option>
+                  </select>
+                </div>
+              
+        </div>
+        
+        <div class="generate d-flex justify-content-between ">
+            <div class="col-md-6"><button class="generate-array">Generate Array</button></div>
+            
+            <div class="col-md-6"><button class="reshuffle">Sort Array</button></div>
+        </div>
+
+        <div class="array-container">
+          ...
+</div>
+
+      </div>
+
+
+        
+   </main>
+   <footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="sorting.js"></script>
+   </footer>
+</body>
+</html>
