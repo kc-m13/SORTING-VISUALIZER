@@ -1,0 +1,166 @@
+.header {
+    height: 700px; /* Increase the height to your desired value */
+    background-image: url("bc2.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: darkcyan;
+     /* Align the text to the center horizontally */
+    display: flex; /* Use flexbox for vertical alignment */
+    align-items: center; /* Align the text vertically in the center */
+    justify-content: center; /* Align the text horizontally in the center */
+    display: flex;
+    flex-direction: column;
+     
+
+}
+  .title{
+    font-family :cursive ;
+    font-size: 60px; 
+  }
+
+  .tagline {
+    font-family :'Courier New', Courier, monospace;
+    display: block;
+    margin-top: 20px; /* Adjust the margin as needed */
+    font-size: 20px; 
+}
+
+.text-bordered-glow {
+    color: darkcyan;
+    text-shadow: 0 0 10px rgb(167, 228, 228), 0 0 20px rgb(167, 228, 228), 0 0 30px rgb(167, 228, 228); /* Adjust the shadow color and size */
+    -webkit-text-stroke: 1px rgb(0, 65, 65); /* Adjust the stroke color and width */
+    
+  }
+
+
+.click-here{
+    margin-top: 40px;
+}
+
+
+
+
+.button-outline {
+    background-color: transparent;
+    color: darkcyan;
+    padding: 10px 20px;
+    border: 2px solid #E9FFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-outline:hover {
+    background-color: #91ffff;
+    color: #fff;
+  }
+
+
+
+
+
+.baap{
+    background-image: url("bgidk.jpeg"); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.control-container{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffe9e3;
+    
+}
+
+
+.generate{
+    text-align: center;
+    color: #34495e;
+    padding: 10px 20px;
+
+}
+
+.myselect {
+    margin-top: 20px;
+    /* Custom background color */
+    background-color: transparent;
+    /* Custom font styles */
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* Custom border styles */
+    border: 1px solid #ffe9e3;
+    border-radius: 4px;
+    /* Custom padding */
+    padding: 9px;
+    /* Custom dropdown arrow */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #c06c84;
+  }
+  
+  .myselect:hover {
+    /* Add hover styles */
+    border-color: #c35bff; /* Custom border color on hover */
+    color: #c35bff;
+    /* Add any additional hover styles as desired */
+  }
+  
+
+  .generate-array,.reshuffle{
+    color: #c06c84;
+  }
+
+button {
+    background-color:transparent ;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    color:#ffe9e3;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #ffe9e3;
+  }
+  
+  button:hover {
+    background-color: #34044b;
+    box-shadow: 0 0 15px rgba(53, 243, 218, 0.3);
+  }
+  
+  select {
+    border-radius: 4px;
+  }
+
+  .bar {
+    width: 30px;
+    height: 100px; 
+    margin: 10px;
+    display: inline-block;
+    background-color: #fad3cf;
+    transition: filter 0.3s ease;
+    border-radius: 8px;
+}
+
+.bar.sorted {
+    filter: grayscale(100%);
+  }
+
+.array-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.comparing{
+    background-color: #34044b;
+}
+
+.merging{
+    background-color: #34044b;
+}
+
